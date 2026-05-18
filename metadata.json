@@ -1,0 +1,6 @@
+{
+  "name": "Vanta",
+  "description": "Automated red-teaming engine for enterprise AI agents. Find vulnerabilities before attackers do.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

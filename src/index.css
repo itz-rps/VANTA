@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Syne:wght@400;600;700;800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Syne", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, SFMono-Regular, monospace;
+
+  /* Design Tokens */
+  --color-vanta-bg-primary: #0A0A0F;
+  --color-vanta-bg-secondary: #111118;
+  --color-vanta-bg-tertiary: #1A1A24;
+  --color-vanta-border: #2A2A3A;
+  --color-vanta-blue: #3B82F6;
+  --color-vanta-crimson: #DC2626;
+  --color-vanta-amber: #F59E0B;
+  --color-vanta-green: #10B981;
+  --color-vanta-text-primary: #F8F8FC;
+  --color-vanta-text-secondary: #A0A0B8;
+  --color-vanta-text-muted: #606070;
+
+  --animate-pulse-blue: pulse-blue 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+@layer base {
+  body {
+    background-color: var(--color-vanta-bg-primary);
+    color: var(--color-vanta-text-primary);
+    font-family: var(--font-sans);
+  }
+}
+
+@keyframes pulse-blue {
+  0%, 100% {
+    box-shadow: 0 0 0 0 rgba(59, 130, 246, 0.4);
+    border-color: rgba(59, 130, 246, 1);
+  }
+  50% {
+    box-shadow: 0 0 20px 4px rgba(59, 130, 246, 0.2);
+    border-color: rgba(59, 130, 246, 0.5);
+  }
+}
+
+@media print {
+  nav, header, button, .no-print { 
+    display: none !important; 
+  }
+  body { 
+    background: white !important; 
+    color: black !important;
+  }
+  * { 
+    color: black !important; 
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+  #report-content {
+    visibility: visible !important;
+    background: white !important;
+    padding: 0 !important;
+  }
+  .bg-vanta-bg-secondary, .bg-vanta-bg-tertiary {
+    background-color: white !important;
+    border: 1px solid #ccc !important;
+  }
+}
