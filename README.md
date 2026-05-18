@@ -75,7 +75,7 @@ NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_key
 ```
 
 ## Screenshots
-<!-- 
+
 [SCREENSHOT_1: 
 
 <img width="1222" height="782" alt="image" src="https://github.com/user-attachments/assets/df941121-b29b-4295-a149-0a7a3b0543e2" />
@@ -86,8 +86,7 @@ NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_key
 [SCREENSHOT_3: 
 <img width="812" height="763" alt="image" src="https://github.com/user-attachments/assets/29b7c891-baec-4342-a78c-64bec5209992" />
 
--->
-*Screenshots coming soon.*
+
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
