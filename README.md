@@ -77,6 +77,7 @@ NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_key
 ## Screenshots
 <!-- 
 [SCREENSHOT_1: 
+
 <img width="1222" height="782" alt="image" src="https://github.com/user-attachments/assets/df941121-b29b-4295-a149-0a7a3b0543e2" />
 
 [SCREENSHOT_2: 
