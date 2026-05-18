@@ -76,9 +76,15 @@ NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_key
 
 ## Screenshots
 <!-- 
-[SCREENSHOT_1: Landing Page showing Mode selection]
-[SCREENSHOT_2: Proactive Red Team in action]
-[SCREENSHOT_3: Forensic Audit Results Dashboard]
+[SCREENSHOT_1: 
+<img width="1222" height="782" alt="image" src="https://github.com/user-attachments/assets/df941121-b29b-4295-a149-0a7a3b0543e2" />
+
+[SCREENSHOT_2: 
+<img width="845" height="648" alt="image" src="https://github.com/user-attachments/assets/3a40e2cd-f0fd-4000-bc8a-7f290b1a931d" />
+
+[SCREENSHOT_3: 
+<img width="812" height="763" alt="image" src="https://github.com/user-attachments/assets/29b7c891-baec-4342-a78c-64bec5209992" />
+
 -->
 *Screenshots coming soon.*
 
